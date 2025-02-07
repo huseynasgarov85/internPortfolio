@@ -1,4 +1,4 @@
-package com.example.internportfoliotask2.model.entity;
+package com.example.internportfoliotask2.model.entity.postgre;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Pattern;
@@ -23,6 +23,8 @@ public class User {
     @Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "Please enter a valid email address")
     private String email;
     private String password;
+    private boolean isActive;
+    private String userName;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Education> education;

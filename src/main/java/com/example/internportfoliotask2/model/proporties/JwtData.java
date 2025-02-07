@@ -1,4 +1,4 @@
-package com.example.internportfoliotask2.model.poroprties;
+package com.example.internportfoliotask2.model.proporties;
 
 import lombok.AccessLevel;
 import lombok.Data;

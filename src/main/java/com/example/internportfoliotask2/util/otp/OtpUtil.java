@@ -1,4 +1,4 @@
-package com.example.internportfoliotask2.util;
+package com.example.internportfoliotask2.util.otp;
 
 import org.springframework.stereotype.Component;
 

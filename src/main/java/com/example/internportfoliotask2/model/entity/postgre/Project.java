@@ -1,4 +1,4 @@
-package com.example.internportfoliotask2.model.entity;
+package com.example.internportfoliotask2.model.entity.postgre;
 
 import jakarta.persistence.*;
 import lombok.*;
